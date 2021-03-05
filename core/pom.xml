@@ -115,16 +115,32 @@
 		</plugins>
 	</build>
 
- <repositories>
-    <repository>
+ <pluginRepositories>
+    <pluginRepository>
       <id>central</id>
       <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url> <!-- the https you've been looking for -->
+      <url>https://repo.maven.apache.org/maven2</url>
       <layout>default</layout>
       <snapshots>
-        <enabled>false</enabled> <!-- or set to true if desired, default is false -->
+        <enabled>false</enabled>
       </snapshots>
-    </repository>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
+
+<repositories>
+  <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+  <repository>
+    <id>central</id>
+    <name>Central Repository</name>
+    <url>https://repo.maven.apache.org/maven2</url>
+    <layout>default</layout>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
   </repositories>
 
 </project>
