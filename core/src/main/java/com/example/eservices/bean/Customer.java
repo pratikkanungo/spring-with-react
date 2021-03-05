@@ -16,7 +16,7 @@ public class Customer {
 	private String firstName;
 	@NonNull
 	private String lastName;
-	@NonNull
+	
 	private String password;
 
 	private Boolean enabled;
