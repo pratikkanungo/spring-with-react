@@ -34,7 +34,14 @@ vagrant up
 
 
 ```
-After successful startup
+After successful startup open the following URL in browser
+
+```
+
+http://192.168.33.10:8080
+
+```
+
 
 Open browser and access the confifured swagger document
 ```
