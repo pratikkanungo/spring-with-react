@@ -1,5 +1,5 @@
 # spring-with-react
-This is the demo Rest project created by Using Spring Boot
+This is the demo React project integrated with Using Spring Boot
 
 ## Getting Started
 
