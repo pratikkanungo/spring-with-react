@@ -21,7 +21,11 @@ Running Locally
 ```
 mvn spring-boot:run
 
+```
+
 Running on VM's
+
+```
 
 open command prompt
 cd spring-with-react/core
