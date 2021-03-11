@@ -15,8 +15,9 @@ Java 8
 Vagrant
 Oracle Virtual Box
 
-
+```
 Running Locally
+
 ```
 mvn spring-boot:run
 
@@ -25,6 +26,8 @@ Running on VM's
 open command prompt
 cd spring-with-react/core
 vagrant up
+
+
 
 ```
 After successful startup
